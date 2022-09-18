@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 24px;
+  }
+  .logo-header {
+    display: flex;
+    align-items: center;
+    gap: 5.5px;
+    font-family: "fraunces";
+    font-weight: bold;
+  }
+  .logo-header > img {
+    height: 16px;
+    width: 16px;
+  }
+  .menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn-burger {
+    width: 16px;
+    height: 3px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn-burger::before,
+  .menu-btn-burger::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 3px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5s ease-in-out;
+  }
+  .menu-btn-burger::before {
+    transform: translateY(-6px);
+  }
+  .menu-btn-burger::after {
+    transform: translateY(6px);
+  }
+  /* Animation */
+  .menu-btn.open .menu-btn-burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .menu-btn-burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn-burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+  .slogan-container {
+    height: 500px;
+    width: 327px;
+    margin: 0 auto;
+    background-image: url("/images/headerimg.jpg");
+    background-position: 620px;
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .overlay {
+    position: absolute;
+    height: 500px;
+    width: 327px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+  }
+  .slogan-contents {
+    position: relative;
+    top: 100px;
+    left: 24px;
+    width: 279px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    text-align: center;
+    color: #fefcf7;
+  }
+  .slogan-contents > h1 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 24px;
+  }
+  .slogan-contents > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .btn {
+    height: 56px;
+    width: 217px;
+    background: #0e8784;
+    border-radius: 6px;
+    margin-top: 39px;
+    align-self: center;
+    border: none;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
