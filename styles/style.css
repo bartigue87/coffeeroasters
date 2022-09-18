@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 @media screen and (max-width: 500px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
   nav {
     display: flex;
     justify-content: space-between;
@@ -108,7 +108,7 @@ body {
     height: 500px;
     width: 327px;
     margin: 0 auto;
-    background-image: url("/images/headerimg.jpg");
+    background-image: url("/images/headerimg-min.jpg");
     background-position: 620px;
     background-size: cover;
     border-radius: 15px;
