@@ -108,7 +108,7 @@
     height: 500px;
     width: 327px;
     margin: 0 auto;
-    background-image: url("/images/headerimg-min.jpg");
+    background-image: url("../images/headerimg-min.jpg");
     background-position: 620px;
     background-size: cover;
     border-radius: 15px;
