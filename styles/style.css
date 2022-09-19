@@ -22,9 +22,9 @@
   .nav-items {
     list-style: none;
     position: absolute;
-    top: 10%;
+    top: 1%;
     left: 0;
-    height: 90%;
+    height: 10%;
     width: 100%;
     z-index: 101;
     background: linear-gradient(
