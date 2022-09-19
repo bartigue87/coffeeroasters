@@ -10,121 +10,125 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,400;9..144,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/index-style.css">
+    <link rel="stylesheet" href="./styles/home-style.css">
     <title>coffeeroasters</title>
 </head>
 
 <body>
     <div class="wrapper">
-    <nav>
-        <div class="logo-header">
-            <img src="./images/logo.png" alt="green coffee beans" />
-            <h3>coffeeroasters</h3>
+        <nav>
+            <div class="logo-header">
+                <img src="./images/logo.png" alt="green coffee beans" />
+                <h3>coffeeroasters</h3>
+            </div>
+            <div aria-controls="nav-items" aria-expanded="false" class="menu-btn">
+                <div class="menu-btn-burger"></div>
+            </div>
+            <ul data-visible="false" id="nav-items" class="nav-items">
+                <li>Home</li>
+                <li>About us</li>
+                <li>Create your plan</li>
+            </ul>
+        </nav>
+        <div class="slogan-container">
+            <div class="overlay"></div>
+            <div class="slogan-contents">
+                <h1>Great coffee made simple.</h1>
+                <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan
+                    coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                <button class="btn">Create your plan</button>
+            </div>
         </div>
-        <div aria-controls="nav-items" aria-expanded="false" class="menu-btn">
-            <div class="menu-btn-burger"></div>
+
+        <div class="collection-container">
+            <h2>our collection</h2>
+            <div class="coffee-collection">
+                <img src="./images/gran-espresso.png" alt="coffee bag" />
+                <h3>Gran Espresso</h3>
+                <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+            </div>
+            <div class="coffee-collection">
+                <img src="./images/planalto.png" alt="coffee bag" />
+                <h3>Planalto</h3>
+                <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+            </div>
+            <div class="coffee-collection">
+                <img src="./images/piccollo.png" alt="coffee bag" />
+                <h3>Piccollo</h3>
+                <p>Mild and smooth blend featuring notes of toasted almond and dried cherry </p>
+            </div>
+            <div class="coffee-collection">
+                <img src="./images/danche.png" alt="coffee bag" />
+                <h3>Danche</h3>
+                <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+            </div>
         </div>
-        <ul data-visible="false" id="nav-items" class="nav-items">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Create your plan</li>
-        </ul>
-    </nav>
-    <div class="slogan-container">
-        <div class="overlay"></div>
-        <div class="slogan-contents">
-            <h1>Great coffee made simple.</h1>
-            <p>Start your mornings with the world’s best coffees. Try our expertly curated artisan
-                coffees from our best roasters delivered directly to your door, at your schedule.</p>
+        <div class="why-us">
+            <div class="why-us-text-container">
+                <h3>Why choose us?</h3>
+                <p>A large part of our role is choosing which particular coffees will be featured in our range. This
+                    means
+                    working closely with the best coffee growers to give you a more impactful experience on every level.
+                </p>
+            </div>
+            <div class="green-boxes-container">
+                <div class="green-box">
+                    <img src="./images/bean-icon-min.png" alt="coffee bean" />
+                    <h4>Best quality</h4>
+                    <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                </div>
+                <div class="green-box">
+                    <img src="./images/present-icon-min.png" alt="present" />
+                    <h4>Exclusive benefits</h4>
+                    <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                </div>
+                <div class="green-box">
+                    <img src="./images/truck-icon-min.png" style="height: 50px !important;" alt="truck" />
+                    <h4>Free shipping</h4>
+                    <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="how-it-works-container">
+            <h5>How it works</h5>
+            <div class="steps-container">
+                <h2>01</h2>
+                <h3>Pick your coffee</h3>
+                <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair
+                    prices
+                    for them. There are new coffees in all profiles every month for you to try out.</p>
+            </div>
+            <div class="steps-container">
+                <h2>02</h2>
+                <h3>Choose the frequency</h3>
+                <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel
+                    your subscription with no commitment through our online portal.</p>
+            </div>
+            <div class="steps-container">
+                <h2>03</h2>
+                <h3>Receive and enjoy!</h3>
+                <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
+                    world-class coffees curated to provide a distinct tasting experience.</p>
+            </div>
             <button class="btn">Create your plan</button>
         </div>
-    </div>
-
-    <div class="collection-container">
-        <h2>our collection</h2>
-        <div class="coffee-collection">
-            <img src="./images/gran-espresso.png" alt="coffee bag" />
-            <h3>Gran Espresso</h3>
-            <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
-        </div>
-        <div class="coffee-collection">
-            <img src="./images/planalto.png" alt="coffee bag" />
-            <h3>Planalto</h3>
-            <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
-        </div>
-        <div class="coffee-collection">
-            <img src="./images/piccollo.png" alt="coffee bag" />
-            <h3>Piccollo</h3>
-            <p>Mild and smooth blend featuring notes of toasted almond and dried cherry </p>
-        </div>
-        <div class="coffee-collection">
-            <img src="./images/danche.png" alt="coffee bag" />
-            <h3>Danche</h3>
-            <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
-        </div>
-    </div>
-    <div class="why-us">
-        <div class="why-us-text-container">
-            <h3>Why choose us?</h3>
-            <p>A large part of our role is choosing which particular coffees will be featured in our range. This means
-                working closely with the best coffee growers to give you a more impactful experience on every level.</p>
-        </div>
-        <div class="green-boxes-container">
-            <div class="green-box">
-                <img src="./images/bean-icon-min.png" alt="coffee bean" />
-                <h4>Best quality</h4>
-                <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+        <footer>
+            <div class="logo-container"><img src="./images/logo.png" alt="green coffee beans" />
+                <h3>coffeeroasters</h3>
             </div>
-            <div class="green-box">
-                <img src="./images/present-icon-min.png" alt="present" />
-                <h4>Exclusive benefits</h4>
-                <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+            <div class="navs-container">
+                <h4>Home</h4>
+                <h4>About us</h4>
+                <h4>Create your plan</h4>
             </div>
-            <div class="green-box">
-                <img src="./images/truck-icon-min.png" style="height: 50px !important;" alt="truck" />
-                <h4>Free shipping</h4>
-                <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+            <div class="socials-container">
+                <img src="./images/facebook.png" alt="facebook logo">
+                <img style="height: 19.5px !important;" src="./images/twitter.png" alt="twitter logo">
+                <img src="./images/instagram.png" alt="instagram logo">
             </div>
-        </div>
+        </footer>
     </div>
-    <div class="how-it-works-container">
-        <h5>How it works</h5>
-        <div class="steps-container">
-            <h2>01</h2>
-            <h3>Pick your coffee</h3>
-            <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices
-                for them. There are new coffees in all profiles every month for you to try out.</p>
-        </div>
-        <div class="steps-container">
-            <h2>02</h2>
-            <h3>Choose the frequency</h3>
-            <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel
-                your subscription with no commitment through our online portal.</p>
-        </div>
-        <div class="steps-container">
-            <h2>03</h2>
-            <h3>Receive and enjoy!</h3>
-            <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
-                world-class coffees curated to provide a distinct tasting experience.</p>
-        </div>
-        <button class="btn">Create your plan</button>
-    </div>
-    <footer>
-        <div class="logo-container"><img src="./images/logo.png" alt="green coffee beans" />
-            <h3>coffeeroasters</h3>
-        </div>
-        <div class="navs-container">
-            <h4>Home</h4>
-            <h4>About us</h4>
-            <h4>Create your plan</h4>
-        </div>
-        <div class="socials-container">
-            <img src="./images/facebook.png" alt="facebook logo">
-            <img style="height: 19.5px !important;" src="./images/twitter.png" alt="twitter logo">
-            <img src="./images/instagram.png" alt="instagram logo">
-        </div>
-    </footer>
-</div>
     <script src="./js/index.js"></script>
 </body>
 
