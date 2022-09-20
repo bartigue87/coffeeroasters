@@ -521,14 +521,14 @@
   }
   .modal-container {
     position: fixed;
-    top: 4%;
+    top: 8%;
     width: 100%;
     z-index: 1000;
     visibility: hidden;
   }
   .modal {
-    width: 327px;
-    height: 657px;
+    width: 75%;
+    height: 597px;
     margin: 0 auto;
     border-radius: 10px;
     background-color: white;
@@ -568,8 +568,9 @@
     font-size: 24px;
     line-height: 40px;
     color: #83888f;
-    height: 240px;
-    margin: 40px 24px 0;
+    height: 160px;
+    width: 80%;
+    margin: 57px auto 0;
   }
   .modal > p {
     font-family: "Barlow";
@@ -580,15 +581,15 @@
     color: #333d4b;
     mix-blend-mode: normal;
     opacity: 0.8;
-    width: 279px;
+    width: 80%;
     margin: 0 auto;
   }
   #checkout-btn {
     width: 279px !important;
-    margin: 24px auto 12px;
+    margin: 40px auto 12px;
   }
   #edit-btn {
-    margin: 12px;
+    margin: 20px auto;
   }
   footer {
     display: flex;
