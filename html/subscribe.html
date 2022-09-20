@@ -59,25 +59,28 @@
                     world-class coffees curated to provide a distinct tasting experience.</p>
             </div>
         </div>
-        <div class="form-container">
+        <form class="form-container">
             <div class="category-container">
                 <div class="question-div">
                     <h3>How do you drink your coffee?</h3>
                     <div class="arrow"></div>
                 </div>
                 <div class="answer-div">
-                    <div class="selection-div">
+                    <input type="radio" name="drink-method" id="cap" class="hidebox" value="capsule">
+                    <label for="cap" class="selection-div">
                         <h4>Capsule</h4>
                         <p>Compatible with Nespresso systems and similar brewers</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="drink-method" id="filt" class="hidebox" value="filter">
+                    <label for="filt" class="selection-div">
                         <h4>Filter</h4>
                         <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="drink-method" id="esp" class="hidebox" value="espresso">
+                    <label for="esp" class="selection-div">
                         <h4>Espresso</h4>
                         <p>Dense and finely ground beans for an intense, flavorful experience</p>
-                    </div>
+                    </label>
                 </div>
             </div>
             <div class="category-container">
@@ -86,18 +89,21 @@
                     <div class="arrow"></div>
                 </div>
                 <div class="answer-div">
-                    <div class="selection-div">
+                    <input type="radio" name="coffee-type" id="single" class="hidebox" value="Single Origin">
+                    <label for="single" class="selection-div">
                         <h4>Single Origin</h4>
                         <p>Distinct, high quality coffee from a specific family-owned farm</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="coffee-type" id="decaf" class="hidebox" value="Decaf">
+                    <label for="decaf" class="selection-div">
                         <h4>Decaf</h4>
                         <p>Just like regular coffee, except the caffeine has been removed</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="coffee-type" id="blend" class="hidebox" value="Blended">
+                    <label for="blend" class="selection-div">
                         <h4>Blended</h4>
                         <p>Combination of two or three dark roasted beans of organic coffees</p>
-                    </div>
+                    </label>
                 </div>
             </div>
             <div class="category-container">
@@ -106,18 +112,21 @@
                     <div class="arrow"></div>
                 </div>
                 <div class="answer-div">
-                    <div class="selection-div">
+                    <input type="radio" name="amount" id="250" class="hidebox" value="250g">
+                    <label for="250" class="selection-div">
                         <h4>250g</h4>
                         <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="amount" id="500" class="hidebox" value="500g">
+                    <label for="500" class="selection-div">
                         <h4>500g</h4>
                         <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="amount" id="1000" class="hidebox" value="1000g">
+                    <label for="1000" class="selection-div">
                         <h4>1000g</h4>
                         <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
-                    </div>
+                    </label>
                 </div>
             </div>
             <div class="category-container">
@@ -126,18 +135,21 @@
                     <div class="arrow"></div>
                 </div>
                 <div class="answer-div">
-                    <div class="selection-div">
+                    <input type="radio" name="grind" id="whole" class="hidebox" value="Wholebean">
+                    <label for="whole" class="selection-div">
                         <h4>Wholebean</h4>
                         <p>Best choice if you cherish the full sensory experience</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="grind" id="filter" class="hidebox" value="Filter">
+                    <label for="filter" class="selection-div">
                         <h4>Filter</h4>
                         <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="grind" id="cafe" class="hidebox" value="Cafetiére">
+                    <label for="cafe" class="selection-div">
                         <h4>Cafetiére</h4>
                         <p>Course ground beans specially suited for french press coffee</p>
-                    </div>
+                    </label>
                 </div>
             </div>
             <div class="category-container">
@@ -146,21 +158,24 @@
                     <div class="arrow"></div>
                 </div>
                 <div class="answer-div">
-                    <div class="selection-div">
+                    <input type="radio" name="frequency" id="1week" class="hidebox" value="Every week">
+                    <label for="1week" class="selection-div">
                         <h4>Every week</h4>
                         <p>$7.20 per shipment. Includes free first-class shipping.</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="frequency" id="2week" class="hidebox" value="Every 2 weeks">
+                    <label for="2week" class="selection-div">
                         <h4>Every 2 weeks</h4>
                         <p>$9.60 per shipment. Includes free priority shipping.</p>
-                    </div>
-                    <div class="selection-div">
+                    </label>
+                    <input type="radio" name="frequency" id="month" class="hidebox" value="Every month">
+                    <label for="month" class="selection-div">
                         <h4>Every month</h4>
                         <p>$12.00 per shipment. Includes free priority shipping.</p>
-                    </div>
+                    </label>
                 </div>
             </div>
-        </div>
+        </form>
         <div class="order-summary">
             <h5>order summary</h5>
             <p>"I drink my coffee as <span class="order-span" id="how">______</span>, with a <span class="order-span"

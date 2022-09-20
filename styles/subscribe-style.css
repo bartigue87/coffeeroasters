@@ -142,6 +142,19 @@
     background-color: #f4f1eb;
     cursor: pointer;
   }
+  .hidebox {
+    display: none;
+  }
+  input[type="radio"]:checked + .selection-div {
+    background-color: #0e8784;
+  }
+  input[type="radio"]:checked + .selection-div > h4 {
+    color: white;
+  }
+  input[type="radio"]:checked + .selection-div > p {
+    color: white;
+    opacity: 0.8;
+  }
   .selection-div > h4 {
     font-family: "Fraunces";
     font-style: normal;
