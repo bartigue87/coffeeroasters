@@ -26,9 +26,9 @@
                 <div class="menu-btn-burger"></div>
             </div>
             <ul data-visible="false" id="nav-items" class="nav-items">
-                <li>Home</li>
-                <li>About us</li>
-                <li>Create your plan</li>
+                <li onclick="location.href = 'index.html'">Home</li>
+                <li onclick="location.href = './html/about.html'">About us</li>
+                <li onclick="location.href = './html/subscribe.html'">Create your plan</li>
             </ul>
         </nav>
         <div class="slogan-container">
@@ -45,23 +45,31 @@
             <h2>our collection</h2>
             <div class="coffee-collection">
                 <img src="./images/gran-espresso.png" alt="coffee bag" />
-                <h3>Gran Espresso</h3>
-                <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+                <div>
+                    <h3>Gran Espresso</h3>
+                    <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+                </div>
             </div>
             <div class="coffee-collection">
                 <img src="./images/planalto.png" alt="coffee bag" />
-                <h3>Planalto</h3>
-                <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+                <div>
+                    <h3>Planalto</h3>
+                    <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+                </div>
             </div>
             <div class="coffee-collection">
                 <img src="./images/piccollo.png" alt="coffee bag" />
-                <h3>Piccollo</h3>
-                <p>Mild and smooth blend featuring notes of toasted almond and dried cherry </p>
+                <div>
+                    <h3>Piccollo</h3>
+                    <p>Mild and smooth blend featuring notes of toasted almond and dried cherry </p>
+                </div>
             </div>
             <div class="coffee-collection">
                 <img src="./images/danche.png" alt="coffee bag" />
-                <h3>Danche</h3>
-                <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+                <div>
+                    <h3>Danche</h3>
+                    <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+                </div>
             </div>
         </div>
         <div class="why-us">
@@ -75,23 +83,36 @@
             <div class="green-boxes-container">
                 <div class="green-box">
                     <img src="./images/bean-icon-min.png" alt="coffee bean" />
-                    <h4>Best quality</h4>
-                    <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                    <div>
+                        <h4>Best quality</h4>
+                        <p>Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                    </div>
                 </div>
                 <div class="green-box">
                     <img src="./images/present-icon-min.png" alt="present" />
-                    <h4>Exclusive benefits</h4>
-                    <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                    <div>
+                        <h4>Exclusive benefits</h4>
+                        <p>Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                    </div>
                 </div>
                 <div class="green-box">
-                    <img src="./images/truck-icon-min.png" style="height: 50px !important;" alt="truck" />
-                    <h4>Free shipping</h4>
-                    <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                    <img src="./images/truck-icon-min.png" alt="truck" />
+                    <div>
+                        <h4>Free shipping</h4>
+                        <p>We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="how-it-works-container">
             <h5>How it works</h5>
+            <div class="circle-line-container">
+                <div class="circle"></div>
+                <div class="line"></div>
+                <div class="circle"></div>
+                <div class="line"></div>
+                <div class="circle"></div>
+            </div>
             <div class="steps-container">
                 <h2>01</h2>
                 <h3>Pick your coffee</h3>
@@ -111,16 +132,16 @@
                 <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning
                     world-class coffees curated to provide a distinct tasting experience.</p>
             </div>
-            <button class="btn">Create your plan</button>
+            <button class="btn" onclick="location.href = './html/subscribe.html'">Create your plan</button>
         </div>
         <footer>
             <div class="logo-container"><img src="./images/logo.png" alt="green coffee beans" />
                 <h3>coffeeroasters</h3>
             </div>
             <div class="navs-container">
-                <h4>Home</h4>
-                <h4>About us</h4>
-                <h4>Create your plan</h4>
+                <h4 onclick="location.href = 'index.html'">Home</h4>
+                <h4 onclick="location.href = './html/about.html'">About us</h4>
+                <h4 onclick="location.href = './html/subscribe.html'">Create your plan</h4>
             </div>
             <div class="socials-container">
                 <img src="./images/facebook.png" alt="facebook logo">
