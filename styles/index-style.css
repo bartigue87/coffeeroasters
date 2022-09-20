@@ -122,6 +122,7 @@
     line-height: 25px;
     text-align: center;
     color: #fefcf7;
+    cursor: pointer;
   }
   .logo-container {
     display: flex;

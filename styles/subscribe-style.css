@@ -204,6 +204,7 @@
     line-height: 40px;
     color: #ffffff;
     margin-left: 25px;
+    width: 279px;
   }
   #create-btn {
     margin: 0 auto 120px !important;
@@ -212,14 +213,14 @@
   }
   .modal-container {
     position: fixed;
-    top: 8%;
+    top: 4%;
     width: 100%;
     z-index: 1000;
     visibility: hidden;
   }
   .modal {
     width: 327px;
-    height: 597px;
+    height: 657px;
     margin: 0 auto;
     border-radius: 10px;
     background-color: white;
@@ -276,7 +277,10 @@
   }
   #checkout-btn {
     width: 279px !important;
-    margin: 24px auto;
+    margin: 24px auto 12px;
+  }
+  #edit-btn {
+    margin: 12px;
   }
   footer {
     display: flex;

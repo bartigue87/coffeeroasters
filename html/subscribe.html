@@ -89,17 +89,17 @@
                     <div class="arrow"></div>
                 </div>
                 <div class="answer-div">
-                    <input type="radio" name="coffee-type" id="single" class="hidebox" value="Single Origin">
+                    <input type="radio" name="coffee-type" id="single" class="hidebox" value="single origin">
                     <label for="single" class="selection-div">
                         <h4>Single Origin</h4>
                         <p>Distinct, high quality coffee from a specific family-owned farm</p>
                     </label>
-                    <input type="radio" name="coffee-type" id="decaf" class="hidebox" value="Decaf">
+                    <input type="radio" name="coffee-type" id="decaf" class="hidebox" value="decaf">
                     <label for="decaf" class="selection-div">
                         <h4>Decaf</h4>
                         <p>Just like regular coffee, except the caffeine has been removed</p>
                     </label>
-                    <input type="radio" name="coffee-type" id="blend" class="hidebox" value="Blended">
+                    <input type="radio" name="coffee-type" id="blend" class="hidebox" value="blended">
                     <label for="blend" class="selection-div">
                         <h4>Blended</h4>
                         <p>Combination of two or three dark roasted beans of organic coffees</p>
@@ -135,17 +135,17 @@
                     <div class="arrow"></div>
                 </div>
                 <div class="answer-div">
-                    <input type="radio" name="grind" id="whole" class="hidebox" value="Wholebean">
+                    <input type="radio" name="grind" id="whole" class="hidebox" value="wholebean">
                     <label for="whole" class="selection-div">
                         <h4>Wholebean</h4>
                         <p>Best choice if you cherish the full sensory experience</p>
                     </label>
-                    <input type="radio" name="grind" id="filter" class="hidebox" value="Filter">
+                    <input type="radio" name="grind" id="filter" class="hidebox" value="filter">
                     <label for="filter" class="selection-div">
                         <h4>Filter</h4>
                         <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
                     </label>
-                    <input type="radio" name="grind" id="cafe" class="hidebox" value="Cafetiére">
+                    <input type="radio" name="grind" id="cafe" class="hidebox" value="cafetiére">
                     <label for="cafe" class="selection-div">
                         <h4>Cafetiére</h4>
                         <p>Course ground beans specially suited for french press coffee</p>
@@ -158,17 +158,17 @@
                     <div class="arrow"></div>
                 </div>
                 <div class="answer-div">
-                    <input type="radio" name="frequency" id="1week" class="hidebox" value="Every week">
+                    <input type="radio" name="frequency" id="1week" class="hidebox" value="every week">
                     <label for="1week" class="selection-div">
                         <h4>Every week</h4>
                         <p>$7.20 per shipment. Includes free first-class shipping.</p>
                     </label>
-                    <input type="radio" name="frequency" id="2week" class="hidebox" value="Every 2 weeks">
+                    <input type="radio" name="frequency" id="2week" class="hidebox" value="every 2 weeks">
                     <label for="2week" class="selection-div">
                         <h4>Every 2 weeks</h4>
                         <p>$9.60 per shipment. Includes free priority shipping.</p>
                     </label>
-                    <input type="radio" name="frequency" id="month" class="hidebox" value="Every month">
+                    <input type="radio" name="frequency" id="month" class="hidebox" value="every month">
                     <label for="month" class="selection-div">
                         <h4>Every month</h4>
                         <p>$12.00 per shipment. Includes free priority shipping.</p>
@@ -178,28 +178,30 @@
         </form>
         <div class="order-summary">
             <h5>order summary</h5>
-            <p>"I drink my coffee as <span class="order-span" id="how">______</span>, with a <span class="order-span"
-                    id="type">______</span> type of bean. <span class="order-span" id="amount">______</span>
+            <p>"I drink my coffee as <span class="order-span" id="drink-method-span">______</span>, with a <span
+                    class="order-span" id="type-span">______</span> type of bean. <span class="order-span"
+                    id="amount-span">______</span>
                 ground ala
-                <span class="order-span" id="ground">______</span>, sent to me <span class="order-span"
-                    id="frequency">______</span>."
+                <span class="order-span" id="ground-span">______</span>, sent to me <span class="order-span"
+                    id="frequency-span">______</span>."
             </p>
         </div>
-        <button id="create-btn" class="btn">Create my plan</button>
+        <button id="create-btn" class="btn">Create my plan!</button>
         <div class="backdrop"> </div>
         <div class="modal-container">
             <div class="modal">
                 <h3>Order Summary</h3>
-                <h4>"I drink my coffee as <span class="order-span" id="how">______</span>, with a <span
-                        class="order-span" id="type">______</span> type of bean. <span class="order-span"
-                        id="amount">______</span>
+                <h4>"I drink my coffee as <span class="order-span" id="modal-drink-method">______</span>, with a <span
+                        class="order-span" id="modal-type">______</span> type of bean. <span class="order-span"
+                        id="modal-amount">______</span>
                     ground ala
-                    <span class="order-span" id="ground">______</span>, sent to me <span class="order-span"
-                        id="frequency">______</span>."
+                    <span class="order-span" id="modal-ground">______</span>, sent to me <span class="order-span"
+                        id="modal-frequency">______</span>."
                 </h4>
                 <p>Is this correct? You can proceed to checkout or go back to plan selection if something is off.
                     Subscription discount codes can also be redeemed at the checkout. </p>
-                <button class="btn" id="checkout-btn">Checkout - $<span></span>/mo</button>
+                <button class="btn" id="checkout-btn">Checkout - $<span id="total-span"></span>/mo</button>
+                <button class="btn" id="edit-btn">Edit order</button>
             </div>
         </div>
         <footer>
@@ -219,6 +221,7 @@
         </footer>
     </div>
     <script src="../js/index.js"></script>
+    <script src="../js/subscribe.js"></script>
 </body>
 
 </html>
