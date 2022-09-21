@@ -8,6 +8,200 @@
   overflow-x: hidden !important;
 }
 
+@media screen and (min-width: 1025px) {
+  .slogan-container {
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("../images/coffee-mug-dark.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .overlay {
+    position: absolute;
+    height: 500px;
+    width: 327px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+  }
+  .slogan-contents {
+    position: relative;
+    top: 100px;
+    left: 85px;
+    width: 40%;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    text-align: left;
+    color: #fefcf7;
+  }
+  .slogan-contents > h1 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    color: #fefcf7;
+    margin-bottom: 24px;
+  }
+  .slogan-contents > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .commitment-container {
+    display: flex;
+    margin: 120px auto;
+    width: 90%;
+    text-align: left;
+    gap: 125px;
+    justify-content: center;
+    align-items: center;
+  }
+  .commitment-container > img {
+    height: 520px;
+    width: 445px;
+    border-radius: 15px;
+  }
+  .commitment-container > div {
+    width: 40%;
+  }
+  .commitment-container > div > h3 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 48px;
+    color: #333d4b;
+  }
+  .commitment-container > div > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: #333d4b;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-bottom: 73px;
+  }
+  .quality-container {
+    width: 90%;
+    height: 488px;
+    margin: 0 auto;
+    background-color: #2c343e;
+    border-radius: 15px;
+    text-align: left;
+    position: relative;
+    top: 100px;
+  }
+  .quality-container > div {
+    position: relative;
+    background-image: url(../images//coffee-mug.png);
+    background-position: center;
+    background-size: cover;
+    height: 474px;
+    width: 445px;
+    background-position: bottom;
+    top: -80px;
+    right: -55%;
+  }
+  .quality-container > h3 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 28px;
+    color: #fefcf7;
+    position: relative;
+    top: -377px;
+    left: 85px;
+  }
+  .quality-container > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    width: 40%;
+    position: relative;
+    top: -340px;
+    left: 85px;
+  }
+  .headquarters-container {
+    display: flex;
+    gap: 146px;
+    width: 70%;
+    margin: 120px auto;
+    text-align: center;
+    position: relative;
+    top: 228px;
+  }
+  .headquarters-container > h5 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+    position: absolute;
+    margin-top: -111px;
+  }
+  .country-container {
+    display: flex;
+    flex-direction: column;
+    height: 252px;
+    align-items: flex-start;
+  }
+  .country-container > img {
+    margin-bottom: 47px;
+  }
+  .country-container > h3 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333d4b;
+    margin-bottom: 22px;
+  }
+  .country-container > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333d4b;
+    line-height: 27px;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 251px;
+    height: 120px;
+    width: 90%;
+    margin: 0 auto 251px;
+    background-color: #2c343e;
+  }
+  .nav-items {
+    top: 2% !important;
+    height: 13% !important;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .slogan-container {
     height: 400px;

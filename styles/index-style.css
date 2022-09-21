@@ -8,115 +8,112 @@
   overflow-x: hidden !important;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 29px;
+@media screen and (min-width: 1025px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 29px;
+  }
+  .nav-items {
+    list-style: none;
+    display: flex;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+    gap: 16px;
+  }
+  .nav-items > li {
+    cursor: pointer;
+  }
+  .logo-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "fraunces";
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .logo-header > img {
+    height: 24px;
+    width: 24px;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .menu-btn-burger {
+    display: none;
+  }
+  .btn {
+    height: 56px;
+    width: 217px;
+    background: #0e8784;
+    border-radius: 6px;
+    margin-top: 39px;
+    align-self: left;
+    border: none;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+    cursor: pointer;
+  }
+  .logo-container {
+    display: flex;
+    width: 218px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+  }
+  .logo-container > img {
+    height: 24px;
+    width: 24px;
+  }
+  .logo-container > h3 {
+    font-family: "fraunces";
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+  }
+  .navs-container {
+    display: flex;
+    width: 267px;
+    gap: 24px;
+  }
+  .navs-container > h4 {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #83888f;
+    cursor: pointer;
+  }
+  .socials-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    height: 24px;
+    width: 120px;
+    margin: 65px auto;
+  }
+  .socials-container > img {
+    height: 24px;
+    width: 24px;
+  }
 }
-.nav-items {
-  list-style: none;
-  display: flex;
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.923077px;
-  text-transform: uppercase;
-  color: #83888f;
-  gap: 16px;
-}
-.nav-items > li {
-  cursor: pointer;
-}
-.logo-header {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-family: "fraunces";
-  font-weight: bold;
-  font-size: 18px;
-}
-.logo-header > img {
-  height: 24px;
-  width: 24px;
-}
-.menu-btn {
-  display: none;
-}
-.menu-btn-burger {
-  display: none;
-}
-.btn {
-  height: 56px;
-  width: 217px;
-  background: #0e8784;
-  border-radius: 6px;
-  margin-top: 39px;
-  align-self: left;
-  border: none;
-  font-family: "Fraunces";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: #fefcf7;
-  cursor: pointer;
-}
-.logo-container {
-  display: flex;
-  width: 218px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  margin-top: 54px;
-}
-.logo-container > img {
-  height: 24px;
-  width: 24px;
-}
-.logo-container > h3 {
-  font-family: "fraunces";
-  font-weight: bold;
-  color: white;
-  font-size: 25px;
-}
-.navs-container {
-  display: flex;
-  height: 93px;
-  width: 267px;
-  margin: 32px auto 0;
-  gap: 24px;
-}
-.navs-container > h4 {
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.923077px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #83888f;
-  cursor: pointer;
-}
-.socials-container {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  height: 24px;
-  width: 120px;
-  margin: 65px auto;
-  margin-bottom: 54px;
-}
-.socials-container > img {
-  height: 24px;
-  width: 24px;
-}
-
 @media screen and (max-width: 500px) {
   .wrapper {
     position: relative;
