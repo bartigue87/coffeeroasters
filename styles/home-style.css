@@ -8,6 +8,264 @@
   overflow-x: hidden !important;
 }
 
+@media screen and (min-width: 1025px) {
+  .slogan-container {
+    height: 500px;
+    width: 90%;
+    margin: 0 auto 150px;
+    background-image: url("../images/headerimg-min.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .overlay {
+    display: none;
+  }
+  .slogan-contents {
+    position: relative;
+    top: 100px;
+    left: 24px;
+    width: 398px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    text-align: left;
+    color: #fefcf7;
+    margin-left: 34px;
+  }
+  .slogan-contents > h1 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 24px;
+  }
+  .slogan-contents > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .collection-container {
+    margin: 0 auto 150px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+  }
+  .collection-container > h2 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 7px;
+    font-size: 90px;
+    line-height: 72px;
+    color: #83888f;
+    background: -webkit-linear-gradient(#83888f, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 13px;
+    position: absolute;
+    top: 720px;
+    width: 80%;
+    margin: 0 auto;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .coffee-collection {
+    width: 282px;
+  }
+  .coffee-collection > img {
+    width: 200px;
+    height: 151px;
+    margin-bottom: 24px;
+  }
+  .coffee-collection > div > h3 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333d4b;
+    margin-bottom: 16px;
+  }
+  .coffee-collection > div > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333d4b;
+    margin-bottom: 48px;
+  }
+  .why-us {
+    background-color: #2c343e;
+    display: flex;
+    flex-direction: column;
+    height: 577px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .why-us-text-container {
+    width: 50%;
+    height: 160px;
+    margin: 100px auto;
+  }
+  .why-us-text-container > h3 {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #fefcf7;
+    margin-bottom: 32px;
+  }
+  .why-us-text-container > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .green-boxes-container {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .green-box {
+    height: 382px;
+    width: 100%;
+    background-color: #0e8784;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .green-box > img {
+    height: 72px;
+    width: 72px;
+    margin: 72px 0 56px;
+  }
+  .green-box:last-child > img {
+    height: 50px !important;
+    margin-top: 94px;
+  }
+  .green-box > div > h4 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #fefcf7;
+    margin-bottom: 24px;
+  }
+  .green-box > div > p {
+    width: 212px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+    margin: 0 auto;
+  }
+  .how-it-works-container {
+    position: relative;
+    display: flex;
+    width: 95%;
+    height: 622px;
+    gap: 100px;
+    margin-left: 100px;
+    margin-top: 300px;
+    text-align: left;
+  }
+  .circle-line-container {
+    display: flex;
+    width: 69%;
+    height: 31px;
+    align-items: center;
+    position: absolute;
+    top: 88px;
+  }
+  .circle {
+    height: 31px;
+    width: 31px;
+    border: 2px solid #0e8784;
+    border-radius: 100%;
+  }
+  .line {
+    border: 2px solid #fdd6ba;
+    width: 38%;
+  }
+  .how-it-works-container > h5 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+    position: absolute;
+  }
+  .how-it-works-container > button {
+    position: absolute;
+    top: 516px;
+  }
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 371px;
+    width: 20%;
+    position: relative;
+    top: 151px;
+  }
+  .steps-container > h2 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+  }
+  .steps-container > h3 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    color: #333d4b;
+  }
+  .steps-container > p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333d4b;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    background-color: #2c343e;
+    width: 90%;
+    margin: 130px auto 0;
+  }
+}
 @media screen and (max-width: 500px) {
   .slogan-container {
     height: 500px;
